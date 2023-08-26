@@ -12,8 +12,8 @@
 
 * [Download the archive matching your platform](https://github.com/fbricon/p2-browser/releases/tag/latest) and decompress it
 * Make sure a JDK 17 or more recent is installed and available on PATH
-* Alternatively, you can set the [-vm argument of the eclipse.ini](https://wiki.eclipse.org/Eclipse.ini#Specifying_the_JVM) file from the Eclipse app
-* Run Eclipse
+* Alternatively, you can set the [-vm argument](https://wiki.eclipse.org/Eclipse.ini#Specifying_the_JVM) in `p2browser.ini` (`eclipse.ini` on Mac) from the application
+* Run `p2browser` on linux, or `p2browser.exe` on Windows, or the `Eclipse` app on mac.
 
 ## Building and running p2-browser locally
 
