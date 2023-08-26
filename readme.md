@@ -12,15 +12,14 @@
 
 To build and run p2-browser as a standalone RCP application:
 
-* Make sure a recent version of JDK is installed and available on PATH
-* If you don't already have Maven, download [latest version of Maven](http://maven.apache.org/download.cgi) and
-  untar/unzip it to a local directory
+* Make sure a JDK 17 or more recent is installed and available on PATH
 * Clone this git repository locally
 * From base directory of the clone run the following command
 
 ```
-    <path-to-maven-install>/bin/mvn clean package
+    ./mvnw clean package
 ```
+
 
 * RCP applications for all enabled platforms will be created under the directory:
 
@@ -46,5 +45,5 @@ com.ifedorenko.p2browser.rcp/target/products/com.ifedorenko.p2browser.rcp/
     └── com.ifedorenko.p2browser.rcp-win32.win32.x86_64.zip
 ```
 
-* To start p2-browser, execute p2browser (or p2browser.exe, on Windows) from the root of RCP app
+* To start p2-browser, execute p2browser (or p2browser.exe, on Windows) from the root of the RCP app
   for your platform.

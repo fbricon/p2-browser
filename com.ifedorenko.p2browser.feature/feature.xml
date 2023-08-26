@@ -2,7 +2,7 @@
 <feature
       id="com.ifedorenko.p2browser.feature"
       label="P2 Browser"
-      version="1.0.3.qualifier"
+      version="1.1.0.qualifier"
       provider-name="IFEDORENKO">
 
    <description url="http://www.example.com/description">
