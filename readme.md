@@ -8,6 +8,13 @@
 * See installable unit direct and indirect references
 * See features that include installable unit
 
+## Installation
+
+* [Download the archive matching your platform](https://github.com/fbricon/p2-browser/releases/tag/latest) and decompress it
+* Make sure a JDK 17 or more recent is installed and available on PATH
+* Alternatively, you can set the [-vm argument of the eclipse.ini](https://wiki.eclipse.org/Eclipse.ini#Specifying_the_JVM) file from the Eclipse app
+* Run Eclipse
+
 ## Building and running p2-browser locally
 
 To build and run p2-browser as a standalone RCP application:
